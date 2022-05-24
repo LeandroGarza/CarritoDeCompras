@@ -5,6 +5,10 @@
 .App-logo {
   height: 45vmin;
   pointer-events: none;
+  width: 300px;
+  border-radius: 30px;
+  box-shadow: white 2px;
+  margin-bottom: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,6 +26,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: Arial, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .App-link {
@@ -33,6 +38,21 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(45deg);
   }
+}
+.button{
+  color: white;
+  width: 8rem;
+  height: 3rem;
+  background-color: #02c6fc;
+  border-radius: 1rem;
+  margin-top: 20px;
+}
+.button:hover{
+  background-color: white;
+  opacity: .9;
+  color:black;
+  
+
 }

@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Almacenes Nacionales</h1>
-        <h3><i><u>Tu Mercado De Confianza</u></i></h3>
+        <h1>BiciMundo "Tres F"</h1>
+        <h3><i><u>Bicicletas de Calidad Premium</u></i></h3>
         <br></br>
         <img src={bici2}  className="App-logo" alt="logo"/>
         <p>
@@ -15,7 +15,7 @@ function App() {
           <br></br>
           <input type = "password" placeholder='Contraseña' name = "psw"/>
           <br></br>
-          <button type = "button">Ingresar</button>
+          <button class="button" type = "button">Ingresar</button>
         </p>
         <a
           className="App-link"
