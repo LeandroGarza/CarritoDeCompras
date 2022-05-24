@@ -6,9 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>BiciMundo "Tres F"</h1>
+        <h2>BiciMundo "Tres F"</h2>
         <h3><i><u>Bicicletas de Calidad Premium</u></i></h3>
-        <br></br>
         <img src={bici2}  className="App-logo" alt="logo"/>
         <p>
           <input type = "text" placeholder='Usuario' name = "usuario/mail"/>
