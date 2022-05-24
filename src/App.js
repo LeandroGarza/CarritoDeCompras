@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-//import logo from './images/logo.jpg';
+import bici2 from './images/bici.jpg';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <h1>Almacenes Nacionales</h1>
         <h3><i><u>Tu Mercado De Confianza</u></i></h3>
         <br></br>
-        <img src="images/bici.png"  className="App-logo" alt="logo"/>
+        <img src={bici2}  className="App-logo" alt="logo"/>
         <p>
           <input type = "text" placeholder='Usuario' name = "usuario/mail"/>
           <br></br>

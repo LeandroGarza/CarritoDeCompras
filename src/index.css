@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+.App-logo{
+  width: 300px;
+  height: 20px;
+  border-radius: 30px;
+  box-shadow: white 2px;
+  margin-bottom: 30px;
 }
 
 code {
